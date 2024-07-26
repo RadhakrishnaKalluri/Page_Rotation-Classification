@@ -96,7 +96,7 @@ def detect_page_rotation_and_classify(pdf_path):
 
 #_____________________________________________________________________________
 
-pdf_path = r"C:\Users\rkkal\Downloads\grouped_documents.pdf"
+pdf_path = r"input.pdf"
 rotations, classifications = detect_page_rotation_and_classify(pdf_path)
 print("Rotations:", rotations)
 print('\n',100*'_','\n')
